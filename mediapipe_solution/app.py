@@ -64,7 +64,7 @@ def update_signed(pred, signed):
     return signed
 
 def main():
-    model_save_path = './Ricky/keypoint_classifier2.hdf5'
+    model_save_path = './mediapipe_solution/keypoint_classifier2.hdf5'
     model = tf.keras.models.load_model(model_save_path)
     signed = ''
     prediction = ''
